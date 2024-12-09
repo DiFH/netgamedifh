@@ -104,22 +104,6 @@ settings put system refresh_rate 120
 } >/dev/null 2>&1 &
 
 
-
-# Ensure a game package argument is provided
-if [ -z "$1" ]; then
-    echo "Game package name is required as an argument."
-    exit 1
-fi
-
-# Get the full package name of the game
-game=$(pm list packages | grep -i "$1" | sed 's/package://g')
-if [ -z "$game" ]; then
-    echo "No matching package found for '$1'."
-    exit 1
-else
-    echo "App Detected As [ $game ]"
-fi
-
 # Apply Cmd Game Mode to Targeted App
 cmd device_config put game_overlay "$game" mode=2,downscaleFactor=0.7,fps=240,useAngle=true,LoadingBoost=1
 if [ $? -eq 0 ]; then
