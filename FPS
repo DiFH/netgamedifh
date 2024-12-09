@@ -1,0 +1,14 @@
+#!/system/bin/sh
+
+latest_fps=$(adb shell dumpsys SurfaceFlinger | grep 'fps' | grep '(0)' | head -n 1 | awk -F'fps=' '{print $2}' | awk '{print $1}')
+
+if [ -n "$latest_fps" ]; then
+  fps_display=$(printf "%.2f" "$latest_fps")
+else
+  fps_display="No valid FPS data"
+fi
+
+notification post -t "Latest FPS | $fps_display" -S inbox \
+  --line "Average FPS" \
+  myTagFPS "@Difhgans" >/dev/null
+```
