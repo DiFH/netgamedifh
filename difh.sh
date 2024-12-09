@@ -104,14 +104,6 @@ settings put system refresh_rate 120
 } >/dev/null 2>&1 &
 
 
-# Apply Cmd Game Mode to Targeted App
-cmd device_config put game_overlay "$game" mode=2,downscaleFactor=0.7,fps=240,useAngle=true,LoadingBoost=1
-if [ $? -eq 0 ]; then
-  echo "┌ Succes Network Installed ! ┐"
-else
-  echo "┌ Failed to Installed Gmode ┐"
-fi
-
 
 # Menampilkan Fps
 
