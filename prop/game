@@ -1,0 +1,35 @@
+Berikut beberapa contoh nama paket game:
+
+*Game Strategi*
+
+1. com.mobile.legends (Mobile Legends)
+2. com.tencent.ig (PUBG Mobile)
+3. com.dts.freefireth (Free Fire)
+4. com.supercell.clashofclans (Clash of Clans)
+5. com.roblox.client (Roblox)
+
+*Game Petualangan*
+
+1. com.nianticlabs.pokemongo (Pokémon Go)
+2. com.nianticlabs.wizardshunitemobile (Harry Potter: Wizards Unite)
+3. com.mojang.minecraftpe (Minecraft)
+4. com.rockstargames.gtasa (Grand Theft Auto: San Andreas)
+5. com.team17.escapists (The Escapists)
+
+*Game Olahraga*
+
+1. com.ea.games.fifa (FIFA Soccer)
+2. jp.konami.pesmobile (PES Mobile)
+3. com.t2ksports.nba2k20 (NBA 2K Mobile)
+4. com.ea.games.maddennfl (Madden NFL)
+5. com.gameloft.asphalt9 (Asphalt 9)
+
+*Game Puzzle*
+
+1. com.king.candycrushsaga (Candy Crush Saga)
+2. com.ea.tetris (Tetris)
+3. com.ludo.king (Ludo King)
+4. com.miniclip.eightballpool (8 Ball Pool)
+5. com.ea.bejeweledstars (Bejeweled Stars)
+
+Untuk menjalankan script netgamedifh, gunakan perintah: ./difh.sh [nama_paket_game]
