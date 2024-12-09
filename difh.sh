@@ -145,7 +145,6 @@ case "$1" in
     echo "Lattest FPS is Now Stopped !"
     ;;
     *)
-    echo "Usage : $0 {Run / Stop}"
     ;;
 esac
 
@@ -164,7 +163,6 @@ case "$1" in
     echo "Net Speed is Now Stopped !"
     ;;
     *)
-    echo "usage : $0 {run / stop}"
 esac
 
 
